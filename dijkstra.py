@@ -18,7 +18,7 @@ class Graph:
     
 
 # -------------------------------------
-def dijsktra(graph, initial):
+def dijkstra(graph, initial):
     visited = {initial: 0}
     path = {}
 
@@ -66,4 +66,4 @@ if __name__ == "__main__":
     print "-" * 25
     source_node = 1
     print "Source node:", source_node
-    print dijsktra(g, 1) # return with visited and path
+    print dijkstra(g, 1) # return with visited and path
